@@ -1,0 +1,24 @@
+.container{display:grid;
+        grid-template-columns: 100px 200px;
+        grid-template-rows: 200px 300px 200px;
+        gap: 20px;
+}   
+.one{background-color:aqua;
+
+}
+
+.two{background-color:rgb(1, 20, 20);
+
+}
+.thr{background-color:rgb(75, 77, 77);
+
+}
+.fou{background-color:rgb(223, 231, 231);
+
+}
+.fiv{background-color:rgb(107, 235, 235);
+
+}
+.six{background-color:rgb(1, 92, 92);
+
+}
