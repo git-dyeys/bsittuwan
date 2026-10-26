@@ -1,24 +1,23 @@
 .container{display:grid;
-        grid-template-columns: 100px 200px;
-        grid-template-rows: 200px 300px 200px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px 200px;
         gap: 20px;
-}   
-.one{background-color:aqua;
-
 }
-
-.two{background-color:rgb(1, 20, 20);
-
+.one{background-color: blue;
+    text-align: center;
 }
-.thr{background-color:rgb(75, 77, 77);
-
+.two{background-color: rgb(214, 95, 9);
+    text-align: center;
 }
-.fou{background-color:rgb(223, 231, 231);
-
+.thr{background-color: rgb(28, 203, 116);
+    text-align: center;
 }
-.fiv{background-color:rgb(107, 235, 235);
-
+.fou{background-color: rgb(172, 27, 229);
+    text-align: center;
 }
-.six{background-color:rgb(1, 92, 92);
-
+.fiv{background-color: rgb(177, 153, 13);
+    text-align: center;
+}
+.six{background-color: rgb(203, 6, 6);
+    text-align: center;
 }
